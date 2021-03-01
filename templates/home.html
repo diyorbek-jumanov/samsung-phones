@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block title %} {{ title }} {% endblock %}
+
+{% block content %}
+    {% for url in content %}
+    <img src="../imges/{{url.name}}.png">
+    {% endfor %}
+{% endblock %}

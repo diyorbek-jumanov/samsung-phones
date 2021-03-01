@@ -1,13 +1,14 @@
 from flask import Flask, render_template
 import json
 
-imges = json.loads(open('data.json').read())
+imges_url = json.loads(open('data.json').read())
 
 app = Flask(__name__)
 
-@app.route('/')
+@app.route('/home')
 def home():
-    return imges[0]['name']
+    
+    return render_template('home.html', title='home', content=imges_url)
 
 
 app.run(debug=True)
