@@ -1,0 +1,62 @@
+[
+    {
+        "name": "s3",
+        "camera": "8MP",
+        "ram": "1Gb",
+        "batareya": "2100 mAh"
+    },
+    {
+        "name": "s4",
+        "camera": "13MP",
+        "ram": "2Gb",
+        "batareya": "2600 mAh"
+    },
+    {
+        "name": "s5",
+        "camera": "16MP",
+        "ram": "2Gb",
+        "batareya": "2800 mAh"
+    },
+    {
+        "name": "s6",
+        "camera": "16MP",
+        "ram": "3Gb",
+        "batareya": "2550 mAh"
+    },
+    {
+        "name": "s7",
+        "camera": "12MP",
+        "ram": "4Gb",
+        "batareya": "3000 mAh"
+    },
+    {
+        "name": "s8",
+        "camera": "12MP",
+        "ram": "4Gb",
+        "batareya": "3000 mAh"
+    },
+    {
+        "name": "s9",
+        "camera": "12MP",
+        "ram": "4Gb",
+        "batareya": "3000 mAh"
+    },
+    {
+        "name": "s10",
+        "camera": "16MP",
+        "ram": "8Gb",
+        "batareya": "3400 mAh"
+    },
+    {
+        "name": "s20",
+        "camera": "64MP",
+        "ram": "8Gb",
+        "batareya": "4000 mAh"
+    },
+    {
+        "name": "s21",
+        "camera": "108MP",
+        "ram": "12/16Gb",
+        "batareya": "5000 mAh"
+    }
+]
