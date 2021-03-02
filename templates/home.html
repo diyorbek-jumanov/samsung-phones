@@ -5,6 +5,6 @@
 {% block content %}
     <h1>Samsung phones</h1>
     {% for url in content %}
-        <a href="" ><h2>Samsung galaxy {{url.name}}</h2><img src="static/imges/{{url.name.lower()}}.png" height="100"></a>
+        <a href="/{{ url.name }}" ><h2>Samsung galaxy {{url.name}}</h2><img src="static/imges/{{url.name}}.png" height="100"></a>
     {% endfor %}
 {% endblock %}

@@ -6,22 +6,16 @@
 
 {% block content %}
     <h1>{{ data.name }}</h1>
-    <table class="tbl">
-        <tr>
-            <td><strong>DISPLAY<strong></td>
-            <td><strong>MEMORY</strong></td>
-            <td><strong>camera</strong></td>
-            <td><strong>RAM</strong></td>
-            <td><strong>batareya</strong></td>
-        </tr>
-        <tr>
-            <td>{{data.Specification.DISPLAY}}</td>
-            <td>{{data.Specification.MEMORY}}</td>
-            <td>{{data.Specification.camera}}</td>
-            <td>{{data.Specification.ram}}</td>
-            <td>{{data.Specification.batareya}}</td>>
-        </tr>
-    </table>
+    
+    <img src="static/imges/{{ data.name }}.png">
+    <h3>Specification</h3>
+    <ul>
+        <li>{{ data.Specification.DISPLAY }}</li>
+        <li>{{ data.Specification.MEMORY }}</li>
+        <li>{{ data.Specification.camera }}</li>
+        <li>{{ data.Specification.ram }}</li>
+        <li>{{ data.Specification.batareya }}</li>
+    </ul>
 
     <a href="/">back HOME</a>
 
