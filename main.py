@@ -10,5 +10,12 @@ def home():
     
     return render_template('home.html', title='home', content=imges_url)
 
+@app.route('/s3')
+def S3():
+    title = 'S3'
+    data = imges_url[0]
+
+    return render_template('phone.html', title=title, data=data)
+    
 
 app.run(debug=True)

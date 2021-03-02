@@ -1,62 +1,102 @@
 [
     {
         "name": "s3",
-        "camera": "8MP",
-        "ram": "1Gb",
-        "batareya": "2100 mAh"
+        "Specification": {
+            "DISPLAY": "4.8'(12.19 sm)",
+            "MEMORY": "16Gb",
+            "camera": "8MP",
+            "ram": "1Gb",
+            "batareya": "2100 mAh"
+        }
     },
     {
         "name": "s4",
-        "camera": "13MP",
-        "ram": "2Gb",
-        "batareya": "2600 mAh"
+        "Specification": {
+            "DISPLAY": "5.0'(1080x1920 pixels)",
+            "MEMORY": "16/32/64Gb",
+            "camera": "13MP",
+            "ram": "2Gb",
+            "batareya": "2600 mAh"
+        }
     },
     {
         "name": "s5",
-        "camera": "16MP",
-        "ram": "2Gb",
-        "batareya": "2800 mAh"
+        "Specification": {
+            "DISPLAY": "5.1'(1080x1920 pixels)",
+            "MEMORY": "16/32Gb",
+            "camera": "16MP",
+            "ram": "2Gb",
+            "batareya": "2800 mAh"
+        }
     },
     {
         "name": "s6",
-        "camera": "16MP",
-        "ram": "3Gb",
-        "batareya": "2550 mAh"
+        "Specification": {
+            "DISPLAY": "5.1'(1080x1920 pixels)",
+            "MEMORY": "32/64/128Gb",
+            "camera": "16MP",
+            "ram": "3Gb",
+            "batareya": "2550 mAh"
+        }
     },
     {
         "name": "s7",
-        "camera": "12MP",
-        "ram": "4Gb",
-        "batareya": "3000 mAh"
+        "Specification": {
+            "DISPLAY": "5.1'(1440x2560 pixels)",
+            "MEMORY": "32/64Gb",
+            "camera": "12MP",
+            "ram": "4Gb",
+            "batareya": "3000 mAh"
+        }
     },
     {
         "name": "s8",
-        "camera": "12MP",
-        "ram": "4Gb",
-        "batareya": "3000 mAh"
+        "Specification": {
+            "DISPLAY": "5.8'(1440x2960 pixels)",
+            "MEMORY": "64Gb",
+            "camera": "12MP",
+            "ram": "4Gb",
+            "batareya": "3000 mAh"
+        }
     },
     {
         "name": "s9",
-        "camera": "12MP",
-        "ram": "4Gb",
-        "batareya": "3000 mAh"
+        "Specification": {
+            "DISPLAY": "5.8'(1440x2960 pixels)",
+            "MEMORY": "64/128/256Gb",
+            "camera": "12MP",
+            "ram": "4Gb",
+            "batareya": "3000 mAh"
+        }
     },
     {
         "name": "s10",
-        "camera": "16MP",
-        "ram": "8Gb",
-        "batareya": "3400 mAh"
+        "Specification": {
+            "DISPLAY": "6.1'(1440x3040 pixels)",
+            "MEMORY": "128/256Gb",
+            "camera": "16MP",
+            "ram": "8Gb",
+            "batareya": "3400 mAh"
+        }
     },
     {
         "name": "s20",
-        "camera": "64MP",
-        "ram": "8Gb",
-        "batareya": "4000 mAh"
+        "Specification": {
+            "DISPLAY": "6.2'(1440x3200 pixels)",
+            "MEMORY": "128Gb",
+            "camera": "64MP",
+            "ram": "8Gb",
+            "batareya": "4000 mAh"
+        }
     },
     {
         "name": "s21",
-        "camera": "108MP",
-        "ram": "12/16Gb",
-        "batareya": "5000 mAh"
+        "Specification": {
+            "DISPLAY": "6.8'(1440x3200 pixels)",
+            "MEMORY": "128/256/512Gb",
+            "camera": "108MP",
+            "ram": "12/16Gb",
+            "batareya": "5000 mAh"
+        }
     }
 ]

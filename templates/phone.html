@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block title %}
+    {{ title }} 
+{% endblock %}
+
+{% block content %}
+    <h1>{{ data.name }}</h1>
+    <table class="tbl">
+        <tr>
+            <td><strong>DISPLAY<strong></td>
+            <td><strong>MEMORY</strong></td>
+            <td><strong>camera</strong></td>
+            <td><strong>RAM</strong></td>
+            <td><strong>batareya</strong></td>
+        </tr>
+        <tr>
+            <td>{{data.Specification.DISPLAY}}</td>
+            <td>{{data.Specification.MEMORY}}</td>
+            <td>{{data.Specification.camera}}</td>
+            <td>{{data.Specification.ram}}</td>
+            <td>{{data.Specification.batareya}}</td>>
+        </tr>
+    </table>
+
+    <a href="/">back HOME</a>
+
+{% endblock %}
