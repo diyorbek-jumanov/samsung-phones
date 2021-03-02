@@ -3,7 +3,8 @@
 {% block title %} {{ title }} {% endblock %}
 
 {% block content %}
+    <h1 style="text-align: center;">Samsung phones</h1>
     {% for url in content %}
-    <img src="../imges/{{url.name}}.png">
+        <a href="" ><h2>Samsung galaxy {{url.name}}</h2><img src="../imges/{{url.name}}.png">{{url.name}}</a>
     {% endfor %}
 {% endblock %}
