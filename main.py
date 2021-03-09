@@ -10,75 +10,76 @@ def home():
     
     return render_template('home.html', title='home', content=imges_url)
 
-@app.route('/s3')
-def S3():
-    title = 'Samsung Galaxy S3'
+@app.route('/<string:name>')
+def S3(name='s3'):
+    title = f'Samsung Galaxy {name}'
     data = imges_url[0]
+    routes = name
 
-    return render_template('phone.html', title=title, data=data)
+    return render_template('phone.html', title=title, data=data, routes=routes)
     
-@app.route('/s4')
-def S4():
-    title = 'Samsung Galaxy S4'
-    data = imges_url[1]
+# @app.route('/s4')
+# def S4():
+#     title = 'Samsung Galaxy S4'
+#     data = imges_url[1]
 
-    return render_template('phone.html', title=title, data=data)
+#     return render_template('phone.html', title=title, data=data)
     
-@app.route('/s5')
-def S5():
-    title = 'Samsung Galaxy S5'
-    data = imges_url[2]
+# @app.route('/s5')
+# def S5():
+#     title = 'Samsung Galaxy S5'
+#     data = imges_url[2]
 
-    return render_template('phone.html', title=title, data=data)
+#     return render_template('phone.html', title=title, data=data)
     
-@app.route('/s6')
-def S6():
-    title = 'Samsung Galaxy S6'
-    data = imges_url[3]
+# @app.route('/s6')
+# def S6():
+#     title = 'Samsung Galaxy S6'
+#     data = imges_url[3]
 
-    return render_template('phone.html', title=title, data=data)
+#     return render_template('phone.html', title=title, data=data)
     
-@app.route('/s7')
-def S7():
-    title = 'Samsung Galaxy S7'
-    data = imges_url[4]
+# @app.route('/s7')
+# def S7():
+#     title = 'Samsung Galaxy S7'
+#     data = imges_url[4]
 
-    return render_template('phone.html', title=title, data=data)
+#     return render_template('phone.html', title=title, data=data)
     
-@app.route('/s8')
-def S8():
-    title = 'Samsung Galaxy S8'
-    data = imges_url[5]
+# @app.route('/s8')
+# def S8():
+#     title = 'Samsung Galaxy S8'
+#     data = imges_url[5]
 
-    return render_template('phone.html', title=title, data=data)
+#     return render_template('phone.html', title=title, data=data)
     
-@app.route('/s9')
-def S9():
-    title = 'Samsung Galaxy S9'
-    data = imges_url[6]
+# @app.route('/s9')
+# def S9():
+#     title = 'Samsung Galaxy S9'
+#     data = imges_url[6]
 
-    return render_template('phone.html', title=title, data=data)
+#     return render_template('phone.html', title=title, data=data)
     
-@app.route('/s10')
-def S10():
-    title = 'Samsung Galaxy S10'
-    data = imges_url[7]
+# @app.route('/s10')
+# def S10():
+#     title = 'Samsung Galaxy S10'
+#     data = imges_url[7]
 
-    return render_template('phone.html', title=title, data=data)
+#     return render_template('phone.html', title=title, data=data)
     
-@app.route('/s20')
-def S20():
-    title = 'Samsung Galaxy S20'
-    data = imges_url[8]
+# @app.route('/s20')
+# def S20():
+#     title = 'Samsung Galaxy S20'
+#     data = imges_url[8]
 
-    return render_template('phone.html', title=title, data=data)
+#     return render_template('phone.html', title=title, data=data)
     
-@app.route('/s21')
-def S21():
-    title = 'Samsung Galaxy S21'
-    data = imges_url[9]
+# @app.route('/s21')
+# def S21():
+#     title = 'Samsung Galaxy S21'
+#     data = imges_url[9]
 
-    return render_template('phone.html', title=title, data=data)
+#     return render_template('phone.html', title=title, data=data)
     
 
 app.run(debug=True)
